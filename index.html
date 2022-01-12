@@ -1,53 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<title>Georgie Mathews</title>
 	<style>
-		* {
-			box-sizing: border-box;
-			-webkit-font-smoothing: antialiased;
-			-moz-osx-font-smoothing: grayscale;
-		}
+	          * {
+	              box-sizing: border-box;
+	              -webkit-font-smoothing: antialiased;
+	              -moz-osx-font-smoothing: grayscale;
+	          }
 
-		html,
-		body {
-			margin: 0;
-			padding: 0;
-		}
+	          html,
+	          body {
+	              margin: 0;
+	              padding: 0;
+	          }
 
-		body {
-			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-		}
+	          body {
+	              font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	          }
 
-		.content {
-			max-width: 30rem;
-			padding: 1.5rem 2rem;
-		}
+	          .content {
+	              max-width: 30rem;
+	              padding: 1.5rem 2rem;
+	          }
 
-		.site__title {
-			text-decoration: none;
-			font-size: 1.25rem;
-			color: #2563EB;
-		}
+	          .site__title {
+	              text-decoration: none;
+	              font-size: 1.25rem;
+	              color: #2563EB;
+	          }
 
-		.page__title {
-			color: #6B7280;
-			font-size: 1.5rem;
-			font-weight: normal;
-		}
+	          .page__title {
+	              color: #6B7280;
+	              font-size: 1.5rem;
+	              font-weight: normal;
+	          }
 
-		.nowrap {
-			white-space: nowrap;
-		}
+
+	          .page__title:not(:first-of-type) {
+	        text-decoration: line-through;
+	          }
+
+	          .nowrap {
+	              white-space: nowrap;
+	          }
 	</style>
 </head>
-
 <body>
 	<div class="content">
 		<header>
-			<a href="/" rel="home" title="Home" class="site__title">Georgie Mathews</a>
+			<a class="site__title" href="/" rel="home" title="Home">Georgie Mathews</a>
+			<h1 class="page__title">I work at Nuro where I build software to better everyday life through robotics.</h1>
 			<h1 class="page__title">I work at Protoqual where I build software to improve healthcare through <span class="nowrap">targeted education</span>.</h1>
 		</header>
 	</div>
